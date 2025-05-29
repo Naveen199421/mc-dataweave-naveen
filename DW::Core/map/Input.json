@@ -1,1 +1,8 @@
-
+%dw 2.0
+output application/json
+var employees = [
+  { "firstName": "James", "lastName": "Peter", "age": 30 },
+  { "firstName": "Maria", "lastName": "Garcia", "age": 28 }
+]
+---
+employees map (emp) -> emp.firstName
