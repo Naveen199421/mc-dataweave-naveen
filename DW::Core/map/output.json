@@ -1,4 +1,10 @@
 [
-  "James",
-  "Maria"
+  {
+    "firstName": "James",
+    "age": 30
+  },
+  {
+    "firstName": "Maria",
+    "age": 28
+  }
 ]
