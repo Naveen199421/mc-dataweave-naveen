@@ -1,1 +1,8 @@
+%dw 2.0
+output application/json
+---
+payload map (item) -> ceil (item)
+-------------------
 
+another method:
+[ceil(2.3),ceil(3.8),ceil(4.1),ceil(5.6)]
