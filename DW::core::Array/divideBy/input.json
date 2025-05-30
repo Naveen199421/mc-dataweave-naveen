@@ -1,5 +1,5 @@
-{
-  "divideBy" : [
-      { "divideBy2" : [1, 2, 3, 4, 5] divideBy 3 }
-  ]
-}
+%dw 2.0
+import * from dw::core::Arrays
+output application/json
+---
+["red", "blue", "green", "yellow", "pink", "purple", "orange"] divideBy 3
