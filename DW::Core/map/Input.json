@@ -9,3 +9,9 @@ employees map (emp) -> {
     firstName :emp.firstName,
     age : emp.age
     }
+
+---------------------------
+[
+  { "product": "Book", "price": 120 },
+  { "product": "Pen", "price": 10 }
+]
